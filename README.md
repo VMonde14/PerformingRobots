@@ -12,7 +12,6 @@ void loop(){
 ````
 **This is bold**
 
-
 *This is italics*
 
 - This is a list
