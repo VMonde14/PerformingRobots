@@ -1,6 +1,6 @@
-# PerformingRobots
+# Performing Robots
 
-Tori Mondello | Performing Robots | Fall 2021
+## Tori Mondello | Performing Robots | Fall 2021
 
 Stay tuned for lots of cool projects :)))
 
