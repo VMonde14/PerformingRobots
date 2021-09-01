@@ -8,8 +8,11 @@ Here are some formatting notes:
 
 ````
 void loop(){
+  digitalWrite();
 }
 ````
+Now I'm calling back to the code `digitalWrite()`
+
 **This is bold**
 
 *This is italics*
