@@ -1,6 +1,7 @@
 ## Mr. Highfive: A Proposal
 
-I first got the idea to make Mr. Highfive after thinking about the Vector Robot by Anki https://www.digitaldreamlabs.com/pages/meet-vector
+I first got the idea to make Mr. Highfive after thinking about the [Vector Robot by Anki](https://www.digitaldreamlabs.com/pages/meet-vector)
+This robot gives you fist bumps and, upon bumping its "fist", wiggles around and chirps in delight. It's very heartwarming. 
 
 The overall idea is a robot who insists on getting a highfive from whoever is nearby. If you give, the robot is happy. If you don't, the robot is angry. 
 
