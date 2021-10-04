@@ -1,0 +1,73 @@
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+#include <avr/power.h>
+#endif
+
+#define ledPin 6
+#define ledCount 64
+
+#define brightness 10
+
+Adafruit_NeoPixel strip(ledCount, ledPin, NEO_GRB);
+
+void setup() {
+  strip.begin();
+  strip.show();
+  strip.setBrightness(brightness);
+
+}
+
+void loop() {
+//begin white pixels
+  for (int i = 0; i < 16; i++) {
+    strip.setPixelColor(i, strip.Color(50, 50, 50));
+    strip.show();
+    delay(5);
+  }
+
+  for (int j = 48; j < 64; j++) {
+    strip.setPixelColor(j, strip.Color(50, 50, 50));
+    strip.show();
+    delay(5);
+  }
+
+  for (int h = 0; h < 64; h++) {
+    if (h % 8 == 0) {
+      strip.setPixelColor(h, strip.Color(50, 50, 50));
+      strip.setPixelColor(h + 1, strip.Color(50, 50, 50));
+      strip.setPixelColor(h + 6, strip.Color(50, 50, 50));
+      strip.setPixelColor(h + 7, strip.Color(50, 50, 50));
+      strip.show();
+      delay(5);
+    }
+  }
+  
+  //end white pixels
+ 
+ //begin green pixels/emotions
+  strip.setPixelColor(18, strip.Color(255, 0, 0));
+  strip.setPixelColor(19, strip.Color(255, 0, 0));
+  strip.setPixelColor(20, strip.Color(255, 0, 0));
+  strip.setPixelColor(21, strip.Color(255, 0, 0));
+
+  strip.setPixelColor(26, strip.Color(255, 0, 0));
+  strip.setPixelColor(29, strip.Color(255, 0, 0));
+  strip.setPixelColor(34, strip.Color(255, 0, 0));
+  strip.setPixelColor(37, strip.Color(255, 0, 0));
+
+  strip.setPixelColor(42, strip.Color(255, 0, 0));
+  strip.setPixelColor(43, strip.Color(255, 0, 0));
+  strip.setPixelColor(44, strip.Color(255, 0, 0));
+  strip.setPixelColor(45, strip.Color(255, 0, 0));
+//end green pixels
+
+//pupil pixels set to purple
+  strip.setPixelColor(27, strip.Color(50, 0, 100));
+  strip.setPixelColor(28, strip.Color(50, 0, 100));
+  strip.setPixelColor(35, strip.Color(50, 0, 100));
+  strip.setPixelColor(36, strip.Color(50, 0, 100));
+
+
+  strip.show(); //update the pixels
+  delay(5);
+}
