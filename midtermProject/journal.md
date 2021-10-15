@@ -30,5 +30,7 @@ Once I had all of the different pieces hooked up, the neopixel "sleep" function 
 Ultimately, if I hadn't procrastinated so much I would have been able to get help from Jack or another lab member to try and find the problem. Unfortunately, part of this procrastination was also migraine struggles. I am happy to say, however, that throughout the days when I was building this robot, I did not have a single migraine even with getting frustrated and working with complicated parts!! So, even though the robot didn't turn out exactly how I wanted, it was still a great experience and I'm very proud of it. 
 
 ![IMG_6340](https://user-images.githubusercontent.com/54527264/137484528-780ba659-c5fe-4b0f-ad70-fd5fa2d7b099.jpg)
+
 ![IMG_6338](https://user-images.githubusercontent.com/54527264/137484531-92d4f208-3316-444b-9a80-36663417e03b.jpg)
+
 ![IMG_6339](https://user-images.githubusercontent.com/54527264/137484533-7d986e72-58c4-4e59-b3c7-e0af92ef466c.jpg)
