@@ -17,7 +17,7 @@ Once I had this sequence done, I moved on to the "sleep" function. This would al
 
 Then, I looked at the radio transmitter and reciever. At this point, I was worried that I would get disorganized and confused really easily, so I took a break from electronics and made notes about how each item was hooked up and connected to the arduino. I actually used my closet door as a white board to organize my thoughts. This would prove to be extremely helpful.
 
-![IMG_6329](https://user-images.githubusercontent.com/54527264/137482841-8d40e0ef-69a1-4da8-bb60-d8066dc553cf.jpg)
+![IMG_6329](https://user-images.githubusercontent.com/54527264/137484885-034f36a6-d60a-42cc-915a-78e2da5b329b.jpg)
 
 With this, I felt like I could proceed to putting the individual pieces together. As of now, I had the majority of the cardboard structure done, the neopixel, and the radios working. With my notes on the board, I put it all together, making sure to pay attention to matching pins and staying organized. Once it was together, I tested it to make sure it still worked, and then moved on to add the wheels. Finally, I had all the pieces set up. Now I just needed to construct them into the robot! I had a box that, coincidentally, was the exact same height as the neopixel, which meant I could slide it in and out without having to fasten it. This made trouble shooting very easy. 
 
