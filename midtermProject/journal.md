@@ -1,4 +1,4 @@
-## Burn Out - The Robot (IN PROGRESS)
+## Burn Out - The Robot
 
 # The Concept
 
