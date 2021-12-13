@@ -5,7 +5,7 @@
 const int stepsPerRevolution = 200;
 
 // Create Instance of Stepper library
-Stepper myStepper(stepsPerRevolution, 9, 10, 11, 12);
+Stepper myStepper(stepsPerRevolution, 14, 15, 22, 23);
 
 
 void setup()
